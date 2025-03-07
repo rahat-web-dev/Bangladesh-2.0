@@ -153,3 +153,115 @@ nav{
   line-height: 24px;
   color: rgb(14, 14, 14, 70%);
 }
+
+/* styles for Section-2 */
+.section-2{
+  margin: 0px 160px 80px 160px;
+  text-align: start;
+  /* padding: 10px; */
+}
+
+.section-2> h1{
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+
+.section-2>p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(14, 14, 14, 70%);
+  margin-bottom: 32px;
+
+}
+
+.s2-container{     /* parent Div of section-2 */
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.s2-content-1{      /* Div -1 */
+  padding: 32px;
+  background-color: #548ff560;
+  border-radius: 16px;
+
+}
+.s2-content-2{      /* Div -2 */
+  padding: 32px;
+  background-color: #C6E4D6;
+  border-radius: 16px;
+
+}
+.s2-content-3{      /* Div -3 */
+  padding: 32px;
+  background-color: #F7EBCF;
+  border-radius: 16px;
+}
+
+/* Button styles for Div of section-2 */
+.div-1-btn{
+  background-color: #5490F5;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.div-2-btn{
+  background-color: #09A15C;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.div-3-btn{
+  background-color: #FFC239;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* hover effect for section-2 buttons 
+   with box shadow */
+   .s2-btn-hover:hover{
+    box-shadow: 0px 0px 15px 0px #d10f73;
+    border: 3px solid #faf3f7;
+    transition: all 0.5s;
+   }
+
+
+
+/* Shared styles for content div-
+    img--h2--p */
+
+.s2-content-img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.s2-content-h2{
+  font-size: 20px;
+  color: #0E0E0E;
+  margin-bottom: 12px;
+}
+
+.s2-content-p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(14, 14, 14, 70%);
+  margin-bottom: 24px;
+}
+
+/* styles for quote image */
+.s2-img-quote> img{
+  width: 1280px;
+  height: 300px;
+  border: 2px solid #bd0379;
+}
