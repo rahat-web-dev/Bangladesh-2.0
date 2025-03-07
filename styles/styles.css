@@ -1,7 +1,25 @@
 /* Fira Sans font */
-.fira-sans-regular {
+.body {
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f5f5f5;
+}
+
+   /* Hover-Effect */
+   .hover-effect:hover{
+    background-color: #ea0a6b;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #1e2420;
+    box-shadow: 0px 0px 15px 0px #1e2420;
+
+
 }
 
 /* Nav styles */
@@ -10,19 +28,32 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 24px 160px; 
+    /* width: 100%; */
+    /* margin-top: 50px; */
 }
+
+
 .nav-title{
   font-size: 32px;
   color: #0E0E0E;  
+  transition: all 0.15s;
+}
+.nav-title:hover{
+  color: #d82e2e;
+  background-color: rgb(22, 184, 22);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 0px 15px 0px #c30101;
 }
 
 .nav-btn{
-    border-radius: 8px;
+    /* border-radius: 8px; */
     color: #006A50;
     padding: 15px 30px;
     text-align: center;
     font-weight: 600;
     font-size: 18px;
+    transition: all 0.5s;
 }
 
 /* Banner styles */
@@ -32,17 +63,20 @@ nav{
   position: static;
   max-width: 100%;
   gap: 64px;
-  margin:32px 160px 80px 160px; 
+  margin:32px 160px 0px 160px; 
   background-color: #C6E4D6;
   align-items: center;
-  
-
+  transition: box-shadow 0.5s;
+  border-radius: 8px;
 }
+.banner:hover{
+  box-shadow: 0px 0px 15px 0px #d10f30;
+}
+
 
 .banner-content{
   margin: 117px 0px 117px 60px;
   width: 100%;
-
 }
 
 .banner-title{
@@ -52,6 +86,7 @@ nav{
   margin-bottom: 16px;
 }
 
+
 .banner-descripton{
   font-size: 50px;
   font-weight: 700;
@@ -59,6 +94,7 @@ nav{
   margin-bottom: 24px;
   text-align: start;
 }
+
 
 .banner-btn{
   background-color: #006A50;
@@ -69,14 +105,51 @@ nav{
   font-weight: 600;
 }
 
+
 .banner-img{
  margin: 80px 60px 80px 0px;
  width: 100%;
+}
+/* Banner completed */
+
+/* styles for Section-1 starting */
+.section-1{
+  margin: 80px 160px ;
+}
+
+.section-1 h1{
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 32px;
+}
+
+.s1-container{
+  display: flex;
+  gap: 24px;
 
 }
-.banner-img img{
-  /* width: 475px; */
-  /* height: 400px; */
-  /* max-width: 100%; */
+
+.s1-content{
+  background-color: #FFFFFF;
+  text-align: start;
+  padding: 24px;
+  border-radius: 16px;
 }
-  
+
+.s1-content img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.s1-content h2{
+  font-size: 20px;
+  color: #1F0E0E;
+  margin-bottom: 12px;
+}
+
+.s1-content p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(14, 14, 14, 70%);
+}
