@@ -420,3 +420,86 @@ td{
 .date{
   margin-right: 20px;
 }
+/* section-4 end */
+
+/* section-5 start */
+.section-05{
+  margin: 0px 160px 80px 160px;
+  /* border: 1px solid #0E0E0E; */
+  text-align: center;
+  background-color: #c6e4d65b;
+}
+
+.section-05 h1{
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.section-05 p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(14, 14, 14, 70%);
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.amount-container{
+  padding: 0px 104px 32px  104px;
+  /* border: 1px solid #0E0E0E; */
+  display: flex;
+  gap: 24px;
+  /* align-items: center; */
+  justify-content: space-between;
+  max-width: 1070px;
+}
+
+.amount{
+  /* flex: 1; */
+  max-width: 264px;
+  max-height: 128px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  /* text-align: center; */
+  white-space: nowrap;
+  transition: all 0.5s;
+  /* transform: scale(0.7); */
+}
+
+.amount:hover{
+  box-shadow: 0px 0px 30px 2px #fd077e;
+  /* background-color: rgba(34, 230, 8, 0.844); */
+}
+
+.amount p{
+  
+  color: rgb(14, 14, 14, 80%);
+  font-weight: 700;
+  /* word-spacing: 12px; */
+  font-size: 40px;
+}
+
+.other-amount{
+  margin: 0px 124px 32px  124px;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(14, 14, 14, 30%);
+}
+
+.donate-btn{
+  padding: 17px 34px;
+  background-color: #006A50;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.donate-btn:hover{
+  box-shadow: 0px 0px 30px 0px #fd0792;
+  background-color: rgba(34, 230, 8, 0.844);
+}
