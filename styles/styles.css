@@ -260,8 +260,75 @@ nav{
 }
 
 /* styles for quote image */
-.s2-img-quote> img{
-  width: 1280px;
-  height: 300px;
-  border: 2px solid #bd0379;
+.s2-img-quote{
+  /* border: 2px solid #bd0379; */
 }
+
+.s2-img-quote img{
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+  border: 1px solid #0E0E0E;
+}
+
+/* styles for section-3 */
+.section-3{
+  margin: 0px 160px 80px 160px;
+  /* text-align: start; */
+}
+
+.table-div{
+  padding: 32px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.s3-table{
+  border-collapse: collapse;
+  width: 100%;
+
+}
+th{
+  background-color: #C6E4D6;
+  padding: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: start;
+
+}
+td{
+  background-color: #FFFFFF;
+  padding: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0E0E0E;
+  /* text-align: start; */
+}
+
+.td-l{
+  text-align: left;
+}
+.td-r{
+  text-align: center;
+}
+
+ td, table{
+  border: 1px solid rgb(14, 14, 14, 30%);
+
+}
+
+.select-class{
+  background-color: #C6E4D6;
+  color: #0E0E0E;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+.select-class:hover{
+  box-shadow: 0px 0px 30px 2px #fd6107;
+}
+
+ 
